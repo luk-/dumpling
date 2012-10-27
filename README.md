@@ -16,7 +16,7 @@ var dumpling = require('dumpling')
 
 var serial = 'some awful serialized php session'
 
-var output = dumpling(serial)`
+var output = dumpling(serial)
 ```
 
 ###Testing
