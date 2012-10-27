@@ -1,0 +1,32 @@
+{
+  "name": "dumpling",
+  "version": "0.0.1",
+  "description": "Convert weirdo serialized PHP session array into object.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tap": "0.3.1"
+  },
+  "scripts": {
+    "test": "tap test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/st-luke/dumpling.git"
+  },
+  "keywords": [
+    "php",
+    "session",
+    "serialized"
+  ],
+  "author": "Luke Arduini <luke.arduini@me.com>",
+  "author": {
+    "name": "Luke Arduini",
+    "email": "luke.arduini@me.com",
+    "url": "luke.xxx"
+  },
+  "license": "MIT"
+}
