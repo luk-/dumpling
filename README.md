@@ -19,6 +19,15 @@ var serial = 'some awful serialized php session'
 var output = dumpling(serial)
 ```
 
+This syntax is also supported in [Ender](https://github.com/ender-js) for client
+side usage.
+
+If you are using the global `$` object in Ender, you can also do the following:
+
+```javascript
+var output = $.dumpling(string)
+```
+
 ###Testing
 `npm test`
 
