@@ -1,7 +1,7 @@
 {
   "name": "dumpling",
-  "version": "0.0.3",
-  "description": "Convert weirdo serialized PHP session array into object.",
+  "version": "0.0.4",
+  "description": "Convert serialized PHP session array into object.",
   "main": "index.js",
   "ender": "ender.js",
   "directories": {
