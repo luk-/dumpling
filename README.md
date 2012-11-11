@@ -24,6 +24,19 @@ If you are using the global `$` object in Ender, you can also do the following:
 var output = $.dumpling(string)
 ```
 
+There's also support for jQuery via a jQuery plugin. This is in the build
+directory. Use either `dumpling-jquery.js` or the minified `dumpling-jquery.min.js`
+
+Usage is:
+
+```html
+<script src="jquery.js"></script>
+<script src="dumpling-jquery.js"></script>
+<script type="text/javascript">
+var output = $.dumpling(php_serialized_session)
+</script>
+```
+
 ###Testing
 `npm test`
 
