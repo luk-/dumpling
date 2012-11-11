@@ -1,0 +1,3 @@
+$.ender({
+  dumpling: require('dumpling')
+})
