@@ -18,6 +18,7 @@ var output = dumpling(serial)
 ```
 
 #####Client-side
+![browser support](http://ci.testling.com/st-luke/dumpling.png)
 The server-side syntax above is also supported in [Ender](https://github.com/ender-js) for client-side usage.
 
 If you are using the global `$` object in Ender, you can also do the following:
