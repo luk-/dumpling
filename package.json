@@ -30,7 +30,7 @@
     "url": "luke.xxx"
   },
   "testling": {
-    "files": "test/test.js",
+    "files": "test/*.js",
     "browsers": {
       "ie": [ 8, 9 ],
       "firefox": [ 13 ],
