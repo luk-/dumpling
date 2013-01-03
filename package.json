@@ -9,7 +9,8 @@
   },
   "devDependencies": {
     "tap": "0.3.1",
-    "tape": "0.1.5"
+    "tape": "0.1.5",
+    "jsonify": "0.0.0"
   },
   "scripts": {
     "test": "tap test/test.js"
@@ -24,7 +25,6 @@
     "serialized",
     "ender"
   ],
-  "author": "Luke Arduini <luke.arduini@me.com>",
   "author": {
     "name": "Luke Arduini",
     "email": "luke.arduini@me.com",
@@ -33,12 +33,41 @@
   "testling": {
     "files": "test/test.js",
     "browsers": {
-      "ie": [ 8, 9 ],
-      "firefox": [ 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 ],
-      "chrome": [ 15, 16, 17, 18, 19, 20 ],
-      "safari": [ "5.0.5", "5.1" ],
-      "opera": [ 10, 11, 12 ]
-     }
+      "ie": [
+        8,
+        9
+      ],
+      "firefox": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "chrome": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "safari": [
+        "5.0.5",
+        "5.1"
+      ],
+      "opera": [
+        10,
+        11,
+        12
+      ]
+    }
   },
   "license": "MIT"
 }
