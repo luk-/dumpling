@@ -1,6 +1,6 @@
 {
   "name": "dumpling",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Convert serialized PHP session array into object.",
   "main": "index.js",
   "ender": "ender.js",
