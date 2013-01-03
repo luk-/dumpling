@@ -18,7 +18,7 @@ var output = dumpling(serial)
 ```
 
 #####Client-side
-![browser support](http://ci.testling.com/st-luke/dumpling.png)
+[![browser support](http://ci.testling.com/st-luke/dumpling.png)](http://ci.testling.com/st-luke/dumpling)
 
 The server-side syntax above is also supported in [Ender](https://github.com/ender-js) for client-side usage.
 
