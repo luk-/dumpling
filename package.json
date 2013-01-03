@@ -7,7 +7,6 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
   "devDependencies": {
     "tap": "0.3.1"
   },
@@ -29,6 +28,16 @@
     "name": "Luke Arduini",
     "email": "luke.arduini@me.com",
     "url": "luke.xxx"
+  },
+  "testling": {
+    "files": "test/test.js",
+    "browsers": {
+      "ie": [ 8, 9 ],
+      "firefox": [ 13 ],
+      "chrome": [ 20 ],
+      "safari": [ 5.1 ],
+      "opera": [ 12 ]
+     }
   },
   "license": "MIT"
 }
