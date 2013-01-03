@@ -1,5 +1,5 @@
 var dumpling = require('../')
-var test = require('tap').test
+var test = require('tape')
 
 test('convert php junk', function (t) {
   var input = require('./input')

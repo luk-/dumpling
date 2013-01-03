@@ -8,7 +8,8 @@
     "test": "test"
   },
   "devDependencies": {
-    "tap": "0.3.1"
+    "tap": "0.3.1",
+    "tape": "0.1.5"
   },
   "scripts": {
     "test": "tap test/test.js"
@@ -30,7 +31,7 @@
     "url": "luke.xxx"
   },
   "testling": {
-    "files": "test/*.js",
+    "files": "test/test.js",
     "browsers": {
       "ie": [ 8, 9 ],
       "firefox": [ 13 ],
