@@ -1,6 +1,8 @@
 Dumpling
 ========
 
+[![Build Status](https://secure.travis-ci.org/st-luke/dumpling.png)](http://travis-ci.org/st-luke/dumpling)
+
 Sometimes you have to deal with things like serialized PHP sessions in
 Javascript apps, because I guess PHP still is a thing in parts of the world.
 
